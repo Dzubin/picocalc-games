@@ -14,6 +14,25 @@ No SD card is needed. The program is plain C on the Pico SDK; a desktop (SDL2)
 build for Windows and Linux is set up too, but it has not been built or tested
 yet.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="screenshots/title.png" width="320" alt="The title screen"><br>The title screen</td>
+    <td><img src="screenshots/freecell.png" width="320" alt="FreeCell"><br>FreeCell, deal 1, with a card picked up</td>
+    <td><img src="screenshots/klondike.png" width="320" alt="Klondike Solitaire"><br>Klondike Solitaire, drawing 3, an ace picked up</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/minesweeper.png" width="320" alt="Minesweeper"><br>Minesweeper, the 16 x 16 board</td>
+    <td><img src="screenshots/card-chooser.png" width="320" alt="The card chooser"><br>The card chooser (the <code>C</code> key in the card games)</td>
+    <td></td>
+  </tr>
+</table>
+
+These are the program's own screens, drawn by the same code as on the
+PicoCalc and saved from a PC build with the PicoCalc's 8 x 10 font; they are not
+photographs of the device.
+
 ## Download and flash
 
 Each release has two firmware files: **`games-RP2350.uf2`** for the Pico 2 and
